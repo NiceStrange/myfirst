@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        app:cornerRadius="20dp"
+        android:text="@string/corner"
+        android:textSize="18sp"
+        android:textColor="#ff0000"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        app:cornerRadius="20dp"
+        android:text="@string/cornerRadius"
+        android:textSize="18sp"
+        android:textColor="#ff0000"
+        app:strokeColor="#ff0000"
+        app:strokeWidth="3dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:cornerRadius="20dp"
+        android:text="@string/cornerRadius"
+        android:textSize="18sp"
+        android:textColor="#ff0000"
+        app:strokeColor="#ff0000"
+        app:strokeWidth="3dp"
+        app:icon="@android:drawable/star_on"
+        app:iconTint="#ff0000"
+        app:iconPadding="10dp"
+        app:iconGravity="start"/>
+    
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggle_group"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:checkedButton="@+id/btn1"
+        app:singleSelection="true"
+        app:selectionRequired="false">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/tab1"
+            android:textSize="18sp"
+            android:textColor="#ff0000"
+            app:cornerRadius="15dp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/tab2"
+            android:textSize="18sp"
+            android:textColor="#ff0000"
+            app:backgroundTint="@color/teal_200"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/tab3"
+            android:textSize="18sp"
+            android:textColor="#ff0000"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/tab4"
+            android:textSize="18sp"
+            android:textColor="#ff0000"
+            app:cornerRadius="15dp"
+            app:backgroundTint="@color/teal_200"
+            />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+
+
+</LinearLayout>

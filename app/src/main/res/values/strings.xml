@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FirstAPP</string>
+    <string name="corner">圆角</string>
+
+    <string name="cornerRadius" tools:ignore="DuplicateDefinition">圆角-描边</string>
+    <string name="tab1">Tab1</string>
+    <string name="tab2">Tab2</string>
+    <string name="tab3">Tab3</string>
+    <string name="tab4">Tab4</string>
+</resources>
